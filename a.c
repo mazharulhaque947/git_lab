@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-printf("a"); // no comment
+printf("a"); // no comment  no
 
 return 0;
 }

@@ -1,0 +1,25 @@
+git config --global user.name ""
+git config --global user.email ""
+git config --list  //for see email and name
+git config --global --list
+git config --global --unset user.name/ user.email
+ls -a  //check all folder
+ssh-keygen -o -t rsa -c  //ssh-keygen -t ed25519 -c
+git add file.type, git commit -m ""
+git status
+git add -A  // git add .
+git log  //checking commit
+git reset --hard HEAD~2  //remove number of commit
+git log --oneline
+git show commit_id /git show / git show HEAD
+
+//push and pull
+git remote -v  //show the remote along with the url
+git push -u origin master
+
+//branch and margin
+git branch branchname  //create branch
+git checkout branchname  // move to the branch
+git branch  //checking branch
+git branch -d branchname  //delete branch from main
+git marge branchname // for marging 
